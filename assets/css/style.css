@@ -1,3 +1,73 @@
+body {
+  background-image: url(../img/nave.jpg);
+}
 
+.header {
+  background-color: peru;
+  padding: 0.3rem;
+}
+
+.header__navegation__titulo {
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+
+.menu__navegation__box {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.menu__navegation__box__boton {
+  width: 50rem;
+  border-color: chocolate;
+  border-radius: 5rem;
+}
+
+.menu__navegation__box__boton {
+  position: relative;
+  animation-duration: 5s;
+  animation-direction: alternate-reverse;
+}
+
+.menu__navegation__box__botton {
+  width: 5rem;
+  border-color: white;
+  border-style: none;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 2rem;
+  padding: 1%;
+}
+
+.menu__navegation__box__botton {
+  position: relative;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+
+.menu__navegation__box__parrafo {
+  margin-top: 1%;
+}
+
+.menu__navegation__label {
+  color: rgb(5, 80, 43);
+  margin-bottom: 0%;
+}
+
+.menu__navegation__box__botton:hover {
+  left: 20%;
+  transform: rotate(150deg);
+}
+
+.menu__navegation__box__boton:hover {
+  left: 20%;
+  top: 100px;
+  transform: rotate(120deg);
+}
+
+/*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
