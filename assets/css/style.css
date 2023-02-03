@@ -21,17 +21,18 @@ body {
 
 .menu__navegation__box__boton {
   width: 50rem;
-  border-color: chocolate;
+  border-color: rgb(10, 57, 88);
+  background-color: pink;
   border-radius: 5rem;
 }
 
 .menu__navegation__box__boton :hover {
   position: relative;
   animation-duration: 5s;
-  -moz-animation-direction: alternate-reverse;
+  animation-direction: alternate-reverse;
 }
 
-.menu__navegation__box__botton {
+.menu__navegation__box__botton :hover {
   width: 5rem;
   border-color: rgb(192, 173, 173);
   border-style: none;
@@ -49,23 +50,23 @@ body {
 }
 
 .menu__navegation__box__parrafo {
-  margin-top: 1%;
+  margin-top: 9%;
 }
 
 .menu__navegation__label {
-  color: rgb(5, 80, 43);
+  color: rgb(18, 19, 18);
   margin-bottom: 0%;
 }
 
 .menu__navegation__box__botton:hover {
-  left: 20%;
-  transform: rotate(150deg);
+  left: 10%;
+  transform: rotateY("angle");
 }
 
 .menu__navegation__box__boton:hover {
   left: 20%;
   top: 100px;
-  transform: rotate(120deg);
+  transform: rotateY(360deg);
 }
 
 /*# sourceMappingURL=style.css.map */
