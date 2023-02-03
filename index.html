@@ -8,27 +8,40 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header class="header"> 
-        <nav class="navegador">
-            <h1 class="header_navegador_titulo">Llenalo si puedes</h1>
-
+    <header class="header">
+        <nav class="header__navegation">
+            <h1 class="header__navegation__titulo">Intenta llenarlo :)</h1>
         </nav>
     </header>
-    <main class="principio">
-        <nave class="principio_navegador_box">
-            <form action="" class="principio_navegador_box_form">
-                <label form="name" class="principio_navegador_label">Nombre</label>
-                <p class="Principio_navegador_box_parrafo">
-                    <imput type="text" class="principio_box boton"
-                    placeholder="karla" required>
+
+    <main class="menu">
+        <nav class="menu__navegation">
+            <div class="menu__navegation__box">
+                <form action="" class="menu__navegation__box__forma">
+                    <label for="name" class="menu__navegation__label">Nombre</label>
+                    <p class="menu__navegation__box__parrafo">
+                        <input type="text" class="menu__navegation__box__boton"
+                        placeholder="Martita" required>
                     </p>
-                    <label for="name" class="principio_navegador_label">Apellidos</label>
-                </imput>
-
-                
-            </form>
-
-        </nave>  
+                    <label for="name" class="menu__navegation__label">Apellidos</label>
+                    <p class="menu__navegation__box__parrafo">
+                        <input type="text" class="menu__navegation__box__boton" placeholder="Torres" required>
+                    </p>
+                    <label for="name" class="menu__navegation__label">Correo Electronico</label>
+                    <p class="menu__navegation__box__parrafo">
+                        <input type="email" class="menu__navegation__box__boton" placeholder="joseangel12@gmail.com" required>
+                    </p>
+                    <label for="" class="menu__navegation__label">Edad</label>
+                    <p class="menu__navegation__box__parrafo">
+                        <input type="number" class="menu__navegation__box__boton" required>
+                    </p>
+                    
+                    <input type="submit" class="menu__navegation__box__botton">
+                    
+                    
+                </form>
+            </div>
+        </nav>
 
     </main>
 </body>
