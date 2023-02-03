@@ -3,13 +3,13 @@ body {
 }
 
 .header {
-  background-color: peru;
+  background-color: rgb(14, 112, 43);
   padding: 0.3rem;
 }
 
 .header__navegation__titulo {
-  color: white;
-  font-style: italic;
+  color: rgb(15, 8, 8);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
 }
 
@@ -25,18 +25,18 @@ body {
   border-radius: 5rem;
 }
 
-.menu__navegation__box__boton {
+.menu__navegation__box__boton :hover {
   position: relative;
   animation-duration: 5s;
-  animation-direction: alternate-reverse;
+  -moz-animation-direction: alternate-reverse;
 }
 
 .menu__navegation__box__botton {
   width: 5rem;
-  border-color: white;
+  border-color: rgb(192, 173, 173);
   border-style: none;
-  background-color: black;
-  color: white;
+  background-color: rgb(14, 10, 10);
+  color: rgb(122, 101, 101);
   text-align: center;
   border-radius: 2rem;
   padding: 1%;
