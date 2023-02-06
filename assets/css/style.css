@@ -58,7 +58,7 @@ body {
   margin-top: 3%;
 }
 
-.menu__navegation__label {
+.menu___label {
   color: rgba(214, 7, 7, 0.856);
   font-size: x-large;
   margin-bottom: 0%;
@@ -75,7 +75,6 @@ body {
   transform: rotate3d(150deg);
 }
 
-/*# sourceMappingURL=style.css.map */
 @keyframes prueba {
   0% {
     transform: translate(100px, 200px);
@@ -90,5 +89,6 @@ body {
     transform: translate(0);
   }
 }
+/*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
