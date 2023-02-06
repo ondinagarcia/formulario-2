@@ -3,36 +3,40 @@ body {
 }
 
 .header {
-  background-color: rgb(14, 112, 43);
+  background-color: rgb(17, 17, 17);
   padding: 0.3rem;
 }
 
 .header__navegation__titulo {
-  color: rgb(15, 8, 8);
+  color: rgb(252, 221, 49);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
+  font-size: xx-large;
 }
 
 .menu__navegation__box {
   display: flex;
   justify-content: center;
   margin-top: 5%;
+  color: rgba(92, 4, 4, 0.938);
+  font-size: x-large;
 }
 
 .menu__navegation__box__boton {
   width: 50rem;
   border-color: rgb(10, 57, 88);
-  background-color: pink;
+  background-color: rgb(240, 236, 35);
   border-radius: 5rem;
 }
 
-.menu__navegation__box__boton :hover {
+.menu__navegation__box__boton {
   position: relative;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-direction: alternate-reverse;
+  animation: prueba 5s linear 2s infinite alternate;
 }
 
-.menu__navegation__box__botton :hover {
+.menu__navegation__box__botton:hover {
   width: 5rem;
   border-color: rgb(192, 173, 173);
   border-style: none;
@@ -45,30 +49,46 @@ body {
 
 .menu__navegation__box__botton {
   position: relative;
-  animation-duration: 5s;
-  animation-direction: alternate;
+  animation-duration: 2s;
+  animation: alternate-reverse;
+  animation: prueba 5s linear 2s infinite alternate;
 }
 
 .menu__navegation__box__parrafo {
-  margin-top: 9%;
+  margin-top: 3%;
 }
 
 .menu__navegation__label {
-  color: rgb(18, 19, 18);
+  color: rgba(214, 7, 7, 0.856);
+  font-size: x-large;
   margin-bottom: 0%;
 }
 
 .menu__navegation__box__botton:hover {
   left: 10%;
-  transform: rotateY("angle");
+  transform: rotate3d(120de);
 }
 
 .menu__navegation__box__boton:hover {
   left: 20%;
   top: 100px;
-  transform: rotateY(360deg);
+  transform: rotate3d(150deg);
 }
 
 /*# sourceMappingURL=style.css.map */
+@keyframes prueba {
+  0% {
+    transform: translate(100px, 200px);
+  }
+  25% {
+    transform: translate(100px, 400px);
+  }
+  50% {
+    transform: translate(100px, 400px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
